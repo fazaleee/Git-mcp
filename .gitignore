@@ -1,0 +1,18 @@
+# Local secrets and configuration 
+.env
+.env.*
+!.env.example
+
+#Python virtual environment
+.venv/
+
+#python cache files
+__pycache__/
+*.py[cod]
+
+# Testing and tooling cahchs
+.pytest_cache/
+/ruff_cache/
+/mypy_cache/
+.coverage
+htmlcov/
